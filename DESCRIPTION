@@ -1,0 +1,32 @@
+Package: holstius
+Type: Package
+Title: Miscellaneous helpful functions
+Version: 0.2
+Date: 2012-09-22
+Author: David Holstius
+Maintainer: David Holstius <david.holstius@berkeley.edu>
+Description: David's personal library of helpful functions
+Depends:
+    methods
+Suggests:
+    ggplot2,
+    reshape2,
+    zoo,
+    fasttime,
+    stringr,
+    rgdal,
+    sp
+License: BSD
+Collate:
+    'sample.R'
+    'update.R'
+    'is.R'
+    'geometric.R'
+    'filter.R'
+    'file.R'
+    'read.R'
+    'na.R'
+    'reshape.R'
+    'format.R'
+    'posix.R'
+    'zoo.R'
